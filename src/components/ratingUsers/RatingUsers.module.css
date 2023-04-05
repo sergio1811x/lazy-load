@@ -1,0 +1,13 @@
+.wrapper {
+
+  display: table;  margin: 10px auto;
+}
+
+.loading__block {
+  display: flex;
+  justify-content: center;
+}
+
+.loading {
+  width: 50px;
+}
