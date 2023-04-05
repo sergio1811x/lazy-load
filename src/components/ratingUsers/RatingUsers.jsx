@@ -22,8 +22,8 @@ export const RatingUsers = () => {
     if (raceData.length > lazyLoadData.length) {
       setTimeout(() => {
         setLazyLoadData([...lazyLoadData].concat(dataToAdd));
+        setVisible(newLimit);
       }, 1200);
-      setVisible(newLimit);
     } else setHasMore(false);
   };
 
